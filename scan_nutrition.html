@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Nutrition Information</title>
+</head>
+<body>
+    <h1>Scan Nutrition Information</h1>
+    <form action="/scan_nutrition" method="POST" enctype="multipart/form-data">
+        <label for="nutrition_image">Upload Nutrition Info Image:</label>
+        <input type="file" id="nutrition_image" name="nutrition_image" accept="image/*" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
